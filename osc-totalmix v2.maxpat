@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 767.0, 108.0, 711.0, 465.0 ],
+		"rect" : [ 767.0, 85.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,13 +31,41 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 408.0, 355.0, 100.0, 20.0 ],
+					"text" : "j.dbap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 416.0, 303.0, 27.0, 20.0 ],
+					"text" : "2.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 440.0, 69.0, 203.0, 18.0 ],
-					"text" : "/setSubmix 3., /1/volume1 0.235849"
+					"patching_rect" : [ 399.0, 79.0, 203.0, 18.0 ],
+					"text" : "/setSubmix 3., /1/volume1 0.4"
 				}
 
 			}
@@ -51,7 +79,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 92.0, 158.0, 22.0 ],
+					"patching_rect" : [ 200.0, 107.0, 158.0, 22.0 ],
 					"text" : "timebasedqueue 10"
 				}
 
@@ -66,7 +94,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 243.0, 247.0, 50.0, 20.0 ]
+					"patching_rect" : [ 258.0, 262.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -3785,7 +3813,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 185.0, 247.0, 48.0, 20.0 ],
+					"patching_rect" : [ 200.0, 262.0, 48.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -3812,7 +3840,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 185.0, 173.0, 222.0, 38.0 ],
+					"patching_rect" : [ 200.0, 188.0, 222.0, 38.0 ],
 					"size" : 7.0
 				}
 
@@ -3825,7 +3853,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 185.0, 295.5, 138.0, 20.0 ],
+					"patching_rect" : [ 200.0, 310.5, 138.0, 20.0 ],
 					"text" : "udpsend localhost 7001"
 				}
 
@@ -3840,7 +3868,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 251.0, 63.0, 50.0, 20.0 ]
+					"patching_rect" : [ 266.0, 78.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -4244,7 +4272,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 185.0, 63.0, 48.0, 20.0 ],
+					"patching_rect" : [ 200.0, 78.0, 48.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -4271,7 +4299,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 185.0, 4.0, 222.0, 38.0 ],
+					"patching_rect" : [ 200.0, 19.0, 222.0, 38.0 ],
 					"size" : 7.0
 				}
 
@@ -4284,7 +4312,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 185.0, 126.5, 138.0, 20.0 ],
+					"patching_rect" : [ 200.0, 141.5, 138.0, 20.0 ],
 					"text" : "udpsend localhost 7001"
 				}
 
@@ -4297,7 +4325,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.0, 47.0, 100.0, 20.0 ],
+					"patching_rect" : [ 53.0, 62.0, 100.0, 20.0 ],
 					"text" : "print ###"
 				}
 
@@ -4311,7 +4339,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 19.0, 105.0, 20.0 ],
+					"patching_rect" : [ 53.0, 34.0, 105.0, 20.0 ],
 					"text" : "udpreceive 64711"
 				}
 
@@ -4412,6 +4440,10 @@
 				"patcherrelativepath" : "../span/max-package/clippings/span.misc",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "j.dbap.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
